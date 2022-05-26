@@ -1,0 +1,120 @@
+
+{
+  "ID": 79,
+  "Name": "Iceika",
+  "Resource Location": "divinerpg:iceika",
+  "Class": "divinerpg.dimensions.iceika.BiomeIceika",
+  "Root Height": 0.1,
+  "Height Variation": 0.5,
+  "Top Block": "divinerpg:frozen_grass",
+  "Filler Block": "divinerpg:frozen_dirt",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 0.0,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": true,
+  "Dictionary Types": [
+    "SNOWY",
+    "MAGICAL"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "vibrantjourneys.entities.monster.EntityShade",
+      "Weight": 55,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.monster.EntityBanshee",
+      "Weight": 55,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.monster.EntityGoon",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.iceika.EntityAlicanto",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.iceika.EntityFractite",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.iceika.EntityGlacide",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.iceika.EntityHastreus",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.iceika.EntityFrostArcher",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.iceika.EntityFrosty",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.iceika.EntityRollum",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntityClam",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntityFirefly",
+      "Weight": 150,
+      "Min Group Count": 4,
+      "Max Group Count": 9
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true
+}
